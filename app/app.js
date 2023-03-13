@@ -12,7 +12,8 @@ app.set("views", "./src/views"); //view를 views라는 폴더로 지정
 app.set("view engine", "ejs"); //view engine을 ejs로 지정
 
 //use : 미들웨어를 등록하는 메서드
-app.use("/", home);
 app.use(express.static(`${__dirname}/src/public`));
+app.use(express.json());
+app.use("/", home);
 
 module.exports = app;

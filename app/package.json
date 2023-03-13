@@ -10,7 +10,6 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +17,8 @@
   "keywords": [],
   "author": "이영진",
   "license": "MIT",
-  "homepage" : "",
-  "repository":{
+  "homepage": "",
+  "repository": {
     "type": "git",
     "url": ""
   }
